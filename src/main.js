@@ -1,7 +1,11 @@
-import App from './App.js'
+import App from './App.vue'
 import Vue from 'vue'
+// new Vue({
+//   el:'#app',
+//   components: { App },
+//   template:'<App/>'
+// })
 new Vue({
   el:'#app',
-  components: { App },
-  template:'<App/>'
+  render:h=>h(App)
 })
