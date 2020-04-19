@@ -7,7 +7,7 @@ module.exports={
     path:path.resolve(__dirname,'dist'),
     filename:'main.min.js'
   },
-  extensions: ['.js', '.vue', '.json'],
+  // extensions: ['.js', '.ts', '.json'],
   module:{
     rules:[
       {test:/\.css$/,use:['style-loader','css-loader']},
